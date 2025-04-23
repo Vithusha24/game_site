@@ -1,0 +1,42 @@
+{
+    "Processors": [
+        {"id": 1, "title": "Intel i9", "description": "High-performance CPU", "price": 500, "image": "intel09.jpg"},
+        {"id": 2, "title": "AMD Ryzen 9", "description": "Powerful gaming CPU", "price": 480, "image": "vlcsnap-2025-03-11-16h18m53s956.jpg.webp"},
+        {"id": 3, "title": "Intel i7", "description": "Gaming CPU", "price": 350, "image": "intel7.jpg"},
+        {"id": 4, "title": "AMD Ryzen 7", "description": "Multitasking CPU", "price": 300, "image": "images.jpeg"},
+        {"id": 5, "title": "Intel i5", "description": "Budget-friendly CPU", "price": 250, "image": "logo-intel-hitech-intel-i5-wallpaper-preview.jpg"},
+        {"id": 6, "title": "AMD Ryzen 5", "description": "Good performance", "price": 220, "image": "processr.jpg"}
+    ],
+    "Graphic Cards": [
+        {"id": 7, "title": "NVIDIA RTX 4090", "description": "High-end GPU", "price": 1500, "image": "NVIDIA RTX 4090.jpeg"},
+        {"id": 8, "title": "AMD RX 7900 XTX", "description": "Best AMD GPU", "price": 1200, "image": "AMD-RDNA-3-Radeon-RX-7900-XTX-4.webp"},
+        {"id": 9, "title": "NVIDIA RTX 4080", "description": "Great performance", "price": 1200, "image": "NVIDIA RTX 4080.jpeg"},
+        {"id": 10, "title": "AMD RX 7800 XT", "description": "Affordable power", "price": 800, "image": "Gigabyte-7800-XT-Gaming-OC-Box-scaled.webp"},
+        {"id": 11, "title": "NVIDIA RTX 4070", "description": "Mid-range GPU", "price": 750, "image": "geforce-rtx-4070-super-og-1200x630.jpg"},
+        {"id": 12, "title": "AMD RX 7600", "description": "Entry-level GPU", "price": 350, "image": "sapphire-pulse-rx-7600-review.jpg"}
+    ],
+    "Motherboards": [
+        {"id": 13, "title": "ASUS ROG Strix X570", "description": "High-end motherboard", "price": 300, "image": "mother01.jpg"},
+        {"id": 14, "title": "MSI MAG B550", "description": "Great mid-range motherboard", "price": 200, "image": "mother 2.jpg"},
+        {"id": 15, "title": "Gigabyte Z790", "description": "Intel gaming motherboard", "price": 280, "image": "mother 3.webp"},
+        {"id": 16, "title": "ASUS Prime B450", "description": "Affordable AMD motherboard", "price": 150, "image": "mother4.jpg"},
+        {"id": 17, "title": "MSI MEG Z690", "description": "Premium Intel motherboard", "price": 350, "image": "mother5.jpg"},
+        {"id": 18, "title": "ASRock X670E", "description": "Latest AMD chipset", "price": 320, "image": "mother6.jpg"}
+    ],
+    "Memory (RAM)": [
+        {"id": 19, "title": "Corsair Vengeance 16GB", "description": "Fast DDR4 RAM", "price": 80, "image": "memory 01.jpg"},
+        {"id": 20, "title": "G.Skill Trident Z 32GB", "description": "RGB high-speed RAM", "price": 150, "image": "memory 2.jpg"},
+        {"id": 21, "title": "Kingston Fury 16GB", "description": "Reliable DDR4 RAM", "price": 75, "image": "memory3.jpg"},
+        {"id": 22, "title": "Crucial Ballistix 32GB", "description": "Low-latency RAM", "price": 140, "image": "memory04.jpg"},
+        {"id": 23, "title": "HyperX Fury 16GB", "description": "Budget-friendly RAM", "price": 70, "image": "memory5.jpg"},
+        {"id": 24, "title": "G.Skill Ripjaws V 32GB", "description": "High-performance RAM", "price": 160, "image": "memory6.jpg"}
+    ],
+    "Storage Devices": [
+        {"id": 23, "title": "Samsung 980 Pro 1TB", "description": "Fast NVMe SSD", "price": 180, "image": "device1.jpg"},
+        {"id": 24, "title": "Western Digital Black 2TB", "description": "High-performance HDD", "price": 100, "image": "device2.jpg"},
+        {"id": 25, "title": "Seagate Barracuda 2TB", "description": "Reliable HDD", "price": 90, "image": "device3.jpg"},
+        {"id": 26, "title": "Crucial P3 Plus 1TB", "description": "Affordable NVMe SSD", "price": 120, "image": "device4.jpg"},
+        {"id": 27, "title": "Kingston NV2 2TB", "description": "Budget NVMe SSD", "price": 160, "image": "device5.jpg"},
+        {"id": 28, "title": "Samsung 870 EVO 1TB", "description": "SATA SSD", "price": 130, "image": "devie6.jpg"}
+    ]
+}

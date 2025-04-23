@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Computer Parts Ordering</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <nav class="navigation-bar">
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="About us.html"><i class="fas fa-users"></i> About Us</a></li>
+        <li><a href="up games.html"><i class="fas fa-rocket"></i> Upcoming Games</a></li>
+        <li><a href="console .html"><i class="fas fa-gamepad"></i> Consoles</a></li>
+        <li><a href="peripherals.html"><i class="fas fa-keyboard"></i> Peripherals</a></li>
+        <li><a href="games.html"><i class="fas fa-dice"></i> Games</a></li>
+        <li><a href="queries-faq.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
+        <li><a href="Computer parts.html"><i class="fa-rocket"></i>Computer Parts</a></li>
+        <li><a href="checkout.html"><i class="fa-envelope"></i>checkout</a></li>
+    </ul>
+</nav>
+  <h1>Computer Parts Store</h1>
+
+  <div id="product-list"></div>
+
+  <h2>Shopping Cart</h2>
+  <table border="1"
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="cart-table"></tbody>
+  </table>
+
+  
+
+  <div style="text-align: center; margin-top: 20px;">
+    <p>Total: <span id="total-price">$0</span></p>
+    <button onclick="saveToFavorites()">Add to Favourites</button>
+    <button onclick="applyFavorites()">Apply Favourites</button>
+    <button onclick="checkout()">Buy Now</button>
+  </div>
+  
+  <table id="cart-table"></table>
+  
+  <script src="script.js"></script>
+</body>
+</html>
